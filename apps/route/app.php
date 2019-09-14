@@ -17,6 +17,7 @@ class Route {
 
 		// formating routes
 		$routes = self::formatRoute($routes);
+		$routes = str_replace(['{','}'],[':',''],$routes);
 		$request = self::formatRoute($_SERVER['REQUEST_URI']);
 		$pattern = "@^" . preg_replace('/\\\:[a-zA-Z0-9\_\-]+/', '([a-zA-Z0-9\-\_]+)', preg_quote($routes)) . "$@D";
         
