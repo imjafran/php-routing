@@ -1,7 +1,7 @@
 # php-route
 Simple PHP Fast Routing for Small Web Application or Rest API . 
 
-#### Features
+### Features
 1. Easy Deployment 
 2. Fastest Routing
 3. Parameter Supports
@@ -11,5 +11,31 @@ Simple PHP Fast Routing for Small Web Application or Rest API .
 
 
 
-#### User Guide
+### User Guide
+
+###### Route Structures
+
+`Route::METHOD(ROUTE, CALLBACK);`
+
+
+
+That means, a route should be like 
+
+```php
+Route::get("/", function(){`
+
+echo "This is home page";	
+
+`});
+```
+
+```php
+Route::get("contact", function(){`
+
+echo "This is contact page";	
+
+`});`
+
+
+```
 
