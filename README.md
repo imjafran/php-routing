@@ -85,7 +85,7 @@ Route::post("/about/", function(){
 
 
 
-You can use 6 different method . The list is bellow
+You can use 5 different method . The list is bellow
 
 1. GET
 2. POST
@@ -182,13 +182,8 @@ RewriteRule ^(.*)$ /index.php [NC,L,QSA]
 
 ### Contribution
 
-The base developer is [Jafran Hasan](http://facebook.com/iamjafran) . Dhaka Polytechnic Institute . 
+The base developer is [Jafran Hasan](http://facebook.com/iamjafran) .  The core contributors are... [awaiting]
 
-The core contributors are... [awaiting]
-
-See the websites based on this DRIM Routing System . 
-
-www.btebresults.com 
+See the websites based on this DRIM Routing System . www.btebresults.com 
 
 My project website : www.returnxero.com 
-
